@@ -76,19 +76,6 @@
     body.dark-mode .btn-eye:hover {
       color: #f8fafc;
     }
-    body.dark-mode .admin-hint-card {
-      background: rgba(30, 58, 95, 0.3);
-      border-color: rgba(56, 189, 248, 0.2);
-      color: #93c5fd;
-    }
-    body.dark-mode .admin-hint-card b {
-      color: #f8fafc;
-    }
-    body.dark-mode .admin-hint-card code {
-      background: #0b1a30;
-      color: #38bdf8;
-      border: 1px solid rgba(56, 189, 248, 0.2);
-    }
     body.dark-mode .back-home {
       color: #94a3b8;
     }
@@ -353,27 +340,6 @@
       box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
     }
 
-    /* Admin Hint Box */
-    .admin-hint-card {
-      margin-top: 1.5rem;
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      border-radius: 11px;
-      padding: 12px 14px;
-      font-size: 12.5px;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-    .admin-hint-card b { color: var(--navy); }
-    .admin-hint-card code {
-      background: #dbeafe;
-      color: #1e40af;
-      padding: 2px 6px;
-      border-radius: 5px;
-      font-weight: 700;
-      font-size: 12px;
-    }
-
     .back-home {
       margin-top: 1.75rem;
       font-size: 13.5px;
@@ -561,11 +527,6 @@
             <svg style="width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.2;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
         </form>
-
-        <!-- Admin Login Info Hint -->
-        <div class="admin-hint-card">
-          <b>👑 Akses Admin:</b> Gunakan user <code>admin</code> dan sandi <code>adminperpus123</code> untuk mengelola buku dan persetujuan.
-        </div>
       </div>
 
       <!-- ================= TAB 2: FORM DAFTAR SISWA ================= -->
